@@ -1,11 +1,19 @@
 ---
-import Welcome from '../components/Welcome.astro';
-import Layout from '../layouts/Layout.astro';
-
-// Welcome to Astro! Wondering what to do next? Check out the Astro documentation at https://docs.astro.build
-// Don't want to use any of this? Delete everything in this file, the `assets`, `components`, and `layouts` directories, and start fresh.
+import BaseLayout from '../layouts/BaseLayout.astro'
 ---
 
-<Layout>
-	<Welcome />
-</Layout>
+<BaseLayout title="Dashboard">
+  <h1 class="mb-4">Welcome to My Portfolio</h1>
+  
+  <p>
+    Hi, I’m <strong>Venkateswara Rao Kumpatla</strong>, an aspiring data and technology leader passionate about using data to drive smart decisions.
+    With a background in IT and project leadership, I aim to make a meaningful impact through data-driven strategies and continuous learning.
+  </p>
+
+  <p>
+    You can connect with me on 
+    <a href="https://www.linkedin.com/in/venkateswara-rao-kumpatla-345769245/" target="_blank" rel="noopener noreferrer">
+      LinkedIn
+    </a>.
+  </p>
+</BaseLayout>

@@ -1,0 +1,12 @@
+.custom-sidebar {
+  background-color: #1f2937; /* dark gray-blue */
+  color: #ffffff;
+  padding: 1.5rem;
+  min-height: 100vh;
+}
+.custom-sidebar a.nav-link {
+  color: #ffffff;
+}
+.custom-sidebar a.nav-link:hover {
+  text-decoration: underline;
+}
