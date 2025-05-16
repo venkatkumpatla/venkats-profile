@@ -1,5 +1,4 @@
 {
-<<<<<<< HEAD
   "name": "venkat-profile",
   "type": "module",
   "version": "0.0.1",
@@ -10,12 +9,7 @@
     "astro": "astro"
   },
   "dependencies": {
-    "astro": "^5.7.11"
-  }
-}
-=======
-  "dependencies": {
+    "astro": "^5.7.11",
     "bootstrap": "^5.3.6"
   }
 }
->>>>>>> c6c98b8 (Add Firebase Hosting setup with GitHub Actions)
